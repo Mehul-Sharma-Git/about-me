@@ -1,0 +1,393 @@
+body{
+    font-family: 'Righteous', cursive;
+    margin:0;
+    background-color: #1B212E;
+}
+#main-background{
+
+    background:url(https://p0.pikist.com/photos/316/330/sunset-mountain-silhouette-horizon-fading-light-twilight-dusk-last-light-evening.jpg);
+}
+#main-navigation{
+     
+    width:100%;
+    position: fixed;
+    display: flex;
+   
+}
+#navigation{
+    list-style: none;
+    width: 90%;
+    
+}
+#headname{
+    text-align: left;
+    margin: 20px 0 0 40px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding:5px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.head-nav{
+    background:none;
+    border:none;
+    font-size: 20px;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    float: right;
+
+
+}
+
+#name{
+    text-align:center;
+    padding:100px 0 0 0;
+
+}
+
+#profile-img{
+    border-radius: 50%;
+}
+#mainName{
+    font-size:50px;
+}
+#mainSub{
+    font-size: 35px;
+}
+#taglist{
+    list-style: none;
+    display:flex;
+    margin-left:190px;
+
+}
+.tags{
+    display:inline-block;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.links{
+    color:#D1434F;
+}
+#about{
+    display:flex;
+    padding: 20px;
+    background-color: #1B212E;
+}
+#about-info{
+    padding:20px;
+}
+#info-data
+{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left:22px;
+}
+#about-image
+{
+    width: 520px;
+    height:530px;
+}
+.link-images{
+    width:40px;
+    height:40px;
+
+}
+
+#details{
+    display:flex;
+    margin: 0 auto;
+    width: 450px;
+}
+
+
+.lists1{
+    font-size:14px;
+    border: 2px solid #d1434F;
+    border-right: none;
+}
+.lists2{
+    border: 2px solid #d1434f;
+    font-size:14px;
+    border-left: none;
+}
+.list-type{
+    list-style: none;
+    position:relative;
+    right: 16px;
+}
+#resumebutton{
+    background: #D1434F;
+    padding: 2px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width :100px;
+    text-align: center;;
+}
+#skills{
+
+    background-color: #1B212E;
+    padding:20px;
+    padding-bottom:40px;
+
+}
+.skilltype{
+    margin:0 auto;
+}
+
+.progressbar{
+    
+    width: 400px;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgb(0 0 0 / 40%);
+}
+
+.progressline{
+
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #D1434F;
+    
+}
+.progressnumber1{
+    position:relative;
+    bottom:15px;
+    left:320px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+.progressnumber2{
+    position:relative;
+    bottom:15px;
+    left: 340px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+.progressnumber3{
+    position:relative;
+    bottom:15px;
+    left: 270px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+.progressnumber4{
+    position:relative;
+    bottom:15px;
+    left:240px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+.progressnumber5{
+    position:relative;
+    bottom:15px;
+    left:300px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+.progressnumber6{
+    position:relative;
+    bottom:15px;
+    left:350px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+.progressnumber7{
+    position:relative;
+    bottom:15px;
+    left:320px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+.progressnumber8{
+    position:relative;
+    bottom:15px;
+    left:280px;
+    width: 40px;
+    height: 40px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color:white;
+}
+
+#interests{
+    padding: 50px 0;
+    background-color: #252D40;
+}
+#interest-lists{
+    list-style: none;
+    width: 800px;
+    padding: 50px;
+    padding-left: 100px;
+    margin : 0 auto;
+}
+
+.int-list{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    padding: 30px 30px 30px 30px; 
+    background-color: #1B212E;
+    border-radius: 10px;
+}
+.int-data{
+    
+    text-align:center;
+    color:white;
+    font-size: 18px;
+    margin:auto;
+}
+#resume{
+    background-color:#252D40;
+    padding:20px;
+}
+
+.schools, .work{
+    width: 350px;
+    background:#1b212E;
+    border-radius:5px;
+    padding:10px;
+    margin:40px 20px;
+    text-align:left;
+    
+    
+}.flexer{
+    display: flex;
+}
+#education,#workEx{
+    margin: 100px auto;
+    text-align:center;
+}
+#blogs{
+    background: #1B212E;
+}
+#content{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+footer{
+    margin : 0 auto;
+    padding:100px;
+    text-align: center;
+    background-color:#252d40;
+}
+
+.white{
+    color:White;
+}
+
+.Pink{
+    color: #D1434F;
+}
+.mainheadings{
+    text-align:center;
+    color:White;
+}
+.center{
+    text-align:center;
+    color:#D1434F;
+}
+
+#top{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    bottom: 240px;
+    background: #D1434F;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color:white;
+    font-size:60px;
+    margin: 0 auto;
+}
+#topbutton{
+    margin:0;
+    padding-top:30px;
+}
+
+.linkclass{
+    text-decoration:none;
+    color:white;
+    
+}
+
+#foottags,#footlinks{
+    position: relative;
+    right: 20px;
+    list-style: none;
+    margin : 0 auto;
+}
